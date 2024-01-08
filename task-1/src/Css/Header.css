@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1440px;
+    height: 804px;
+}
+#foodtruck{
+    height: 83px;
+    width: 107px;
+    position: relative;
+    top: 33px;
+    left: 100px;
+}
+#beverages{
+    color: #0E2368;
+    width: 345px;
+    height: 207px;
+    position: absolute;
+    top: 207px;
+    left: 100px;
+    font-family: "Source+Sans+3";
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 69px;
+}
+#good{
+    color: #E23744;
+}
+#health{
+    width: 345px;
+    height: 55px;
+    position: absolute;
+    top: 460px;
+    left: 100px;
+    font-family: "Open+Sans";
+    font-weight: 400;
+    font-size: 16.44px;
+    line-height: 27.41px;
+    color:#444957;
+}
+#click{
+    width: 190px;
+    height: 63px;
+    position: absolute;
+    top: 556px;
+    left: 97px;
+    border-radius: 34px;
+    padding: 14px, 34px, 14px, 34px;
+    gap: 7px;
+    background-color: #E23744;
+    color: white;
+    border: none;
+}
+#explore{
+    width: 121px;
+    height: 36px;
+    font-family: "Open+Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1%;
+}
+#vegpizza{
+    height: 804px;
+    width: 735px;
+    border-radius: 0px, 0px, 0px, 198.9px;
+    position: absolute;
+    top: 5px;
+    left: 705px;
+}
+#press{
+    width: 122px;
+    height: 42px;
+    position: absolute;
+    top: 32px;
+    left: 1277px;
+    border: 1px;
+    border-radius: 21px;
+    padding: 3px, 26px, 3px, 26px;
+    gap: 10px;
+}
+#touch{
+    width: 99px;
+    height: 36px;
+    font-family: "Source+Sans+3";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 3%;
+}
+
+@media only screen and (max-width: 375px) {
+    #foodtruck{
+        display: none;
+    }
+    #vegpizza {
+        width: 440.21px;
+        height: 413.72px;
+        border-radius: 0px,0px,0px,102.35px;
+        position: absolute;
+        top: 0px;
+        left: 0px; /* Hide the Pizza image on smaller screens */
+    }
+    .intro{
+        position: relative;
+        top: 200px;
+
+    }
+
+}

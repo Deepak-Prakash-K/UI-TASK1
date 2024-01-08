@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+
+.main-div{
+    width: 1440px;
+    height: 467px;
+    position: absolute;
+    top: 989px;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: whitesmoke;
+}
+#tumeric{
+    width: 384px;
+    height: 468px;
+    position: absolute;
+    left: 205px;
+}
+#head{
+    width: 422px;
+    height: 26px;
+    padding-top: 100px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 45px;
+    font-style: normal;
+    line-height: 27px;
+    color: #0E2368;
+}
+#dummy{
+    width: 447px;
+    height: 138px;
+    font-family: "Open+Sans";
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 27px;
+    color: #444957;
+}
+#read-button{
+    width: 132px;
+    height: 42px;
+    border-radius: 21px;
+    border: #E23744;
+    padding: 3px,26px, 3px, 26px;
+    gap: 10px;
+    background-color: #E23744;
+}
+#read-text{
+    width: 80px;
+    height: 36px;
+    font-family: "Source+Sans+3";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 3%;
+    color: white;
+}
+@media only screen and (max-width: 375px) {
+    .main-div{
+     width: 375px;
+     height: 516px;
+     position: absolute;
+     top: 888px; 
+     left: 50px; 
+    }
+    #tumeric{
+        display: none;
+    }
+    #dummy{
+        text-align: start;
+    }
+}
